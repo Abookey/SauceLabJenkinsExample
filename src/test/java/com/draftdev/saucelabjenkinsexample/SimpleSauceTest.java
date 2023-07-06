@@ -62,7 +62,8 @@ public class SimpleSauceTest {
         */
         
         //URL url = new URL("*****:45*****3c54-4341-9bd3-f128dbb12256@ondemand.eu-central-1.saucelabs.com:443/wd/hub");
-        URL url = new URL(""); //Add your onDemand URL here or the test will not work 
+        URL url = new URL("https://oauth-saidu_faisal-b06d0:47b5eaa9-6272-4e11-8e7b-cce964ad3b09@ondemand.us-west-1.saucelabs.com:443/wd/hub"); 
+        //Add your onDemand URL here or the test will not work 
         
         driver = new RemoteWebDriver(url, desiredCap);
         System.out.println("Remote web driver is:" + driver == null);
